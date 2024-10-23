@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/bento-grid-using-tailwind-css-axqI8T7Zim)
+- Live Site URL: [Live Site](https://dimasrdev.github.io/bento-grid-frontendmentor/)
 
 ## My process
 
