@@ -37,7 +37,7 @@ Users should be able to:
 
 ### What I learned
 
-Perhaps I'm just making excuses, but my mind have been hazy for the past couple of days. I can't seem to focus and I don't know what's happening with me. Despite that, I still manage to try this bento grid challenge. I know it's not perfect and there are still some fixing needed, but I am pretty satisfied with the result, given my condition right now. I am just happy to learn about grid again and doing it with Tailwind CSS.
+Perhaps I'm just making excuses, but my mind have been hazy for the past couple of days. I can't seem to focus and I don't know what's happening with me. Despite that, I still manage to try this bento grid challenge. I know it's not perfect and there are still some fixing needed, but I am pretty satisfied with the result, given my condition right now. I am just happy to learn about grid again and doing it with Tailwind CSS. I got the responsiveness, but I still need to learn more about grid layouting. I think it would be better if I have the figma file.
 
 ## Author
 
