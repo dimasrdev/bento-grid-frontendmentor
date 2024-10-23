@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/styles/build.css" />
+    <title>Frontend Mentor | Bento grid</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="font-dmSans">
+    <main
+      class="grid gap-4 p-6 min-h-screen md:px-24 md:grid-cols-4 md:grid-rows-10"
+    >
+      <div
+        class="container items-center justify-center gap-4 p-8 text-center text-white md:col-start-2 md:col-span-2 md:row-start-1 md:row-span-4 bg-[#7650dc]"
+      >
+        <h1 class="md:text-6xl">
+          Social Media <span class="text-[#ffcb6b]">10x</span>
+          <em>Faster</em> with AI
+        </h1>
+        <img
+          class="w-40"
+          src="./assets/images/illustration-five-stars.webp"
+          alt="Five stars"
+        />
+        <p>Over 4,000 5-star reviews</p>
+      </div>
+      <div
+        class="container p-3 md:pl-5 md:col-start-2 md:col-span-1 md:row-start-5 md:row-span-3 bg-white"
+      >
+        <img
+          src="./assets/images/illustration-multiple-platforms.webp"
+          alt=""
+        />
+        <h2 class="text-2xl leading-none md:text-3xl md:pr-20">
+          Manage multiple accounts and platforms.
+        </h2>
+      </div>
+      <div
+        class="container p-4 pr-8 gap-4 pb-0 md:overflow-hidden md:col-start-3 md:col-span-1 md:row-start-5 md:row-span-3 bg-[#ffcb6b]"
+      >
+        <h2 class="text-2xl font-medium leading-none md:text-xl">
+          Maintain a consistent posting schedule.
+        </h2>
+        <img
+          class="w-56"
+          src="./assets/images/illustration-consistent-schedule-cropped.webp"
+          alt="Calendar image"
+        />
+      </div>
+      <div
+        class="container text-center md:text-left p-5 gap-5 md:overflow-clip md:pt-8 md:pr-0 md:pl-6 md:col-start-4 md:col-span-1 md:row-start-1 md:row-span-7 bg-[#dacffc]"
+      >
+        <h2 class="text-xl font-medium md:text-3xl md:pr-12">
+          Schedule to social media.
+        </h2>
+        <img
+          class="md:relative md:left-3"
+          src="./assets/images/illustration-schedule-posts.webp"
+          alt="best time to post chart"
+        />
+        <p class="text-lg px-2 leading-none md:pr-14">
+          Optimize post timings to publish content at the perfect time for your
+          audience.
+        </p>
+      </div>
+      <div
+        class="container items-center p-6 md:p-4 gap-5 text-white text-center md:text-left md:flex-row md:col-start-3 md:col-span-2 md:row-start-8 md:row-span-3 bg-[#7650dc]"
+      >
+        <img
+          class="w-48 md:w-56"
+          src="./assets/images/illustration-grow-followers.webp"
+          alt="Followers growth chart"
+        />
+        <h2 class="px-12 text-2xl leading-none md:px-0 md:pr-8 md:text-5xl">
+          Grow followers with non-stop content.
+        </h2>
+      </div>
+      <div
+        class="container p-8 gap-2 md:col-start-2 md:col-span-1 md:row-start-8 md:row-span-3 bg-white"
+      >
+        <p class="font-medium text-5xl">>56%</p>
+        <h2>faster audience growth</h2>
+        <img
+          class="w-48"
+          src="./assets/images/illustration-audience-growth.webp"
+          alt="Audience avatars"
+        />
+      </div>
+      <div
+        class="container p-5 gap-4 md:pt-10 md:px-8 md:col-start-1 md:col-span-1 md:row-start-1 md:row-span-5 bg-[#f9eee1]"
+      >
+        <h2 class="font-medium text-3xl leading-none md:text-5xl">
+          Create and schedule content
+          <span class="text-[#7650dc]"><em>quicker.</em></span>
+        </h2>
+        <img
+          class="w-48"
+          src="./assets/images/illustration-create-post.webp"
+          alt="Create post button illustration"
+        />
+      </div>
+      <div
+        class="container p-6 gap-4 md:col-start-1 md:col-span-1 md:row-start-6 md:row-span-5 bg-[#ffcb6b]"
+      >
+        <h2 class="font-medium text-3xl leading-none md:text-5xl">
+          Write your content using AI.
+        </h2>
+        <img
+          class="w-52"
+          src="./assets/images/illustration-ai-content.webp"
+          alt="AI content writing"
+        />
+      </div>
+    </main>
+  </body>
+</html>
