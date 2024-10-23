@@ -6,7 +6,6 @@
 *.fig
 node_modules
 input.css
-output.css
 
 # Avoid accidental XD upload if you convert the design file
 ###############################################
